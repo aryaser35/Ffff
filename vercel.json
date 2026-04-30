@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "routes": [
+    {
+      "src": "/_system/(.*)",
+      "dest": "/api/index?type=internal&ref=$1",
+      "status": 404
+    },
+    {
+      "src": "/assets/(.*)",
+      "dest": "/api/index?asset=$1"
+    },
+    {
+      "src": "/(?<path>.*)",
+      "dest": "/api/index?_r=$1&_v=8c2a9",
+      "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "HEAD", "OPTIONS"]
+    }
+  ],
+  "framework": null
+}
