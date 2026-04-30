@@ -1,0 +1,23 @@
+{
+  "name": "v-edge-handler-7721",
+  "version": "0.0.1-alpha.8",
+  "private": true,
+  "description": "Base-level internal edge infrastructure for routing services",
+  "license": "UNLICENSED",
+  "author": "System-Core",
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "scripts": {
+    "build": "echo 'Standard build pass'"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "internal",
+    "edge-runtime",
+    "system-core"
+  ]
+}
